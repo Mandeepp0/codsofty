@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 1224px;
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 10px;
+}
+
+.header_list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    list-style-type: none;
+    color: rgb(27, 116, 150);
+    font-size: 18px;
+    /* border: 2px solid red; */
+    height: 100px;
+    
+}
+
+.header_logo>img{
+    height: 86px;
+}
+
+
+
+.verification{
+    color: RGB(125, 86, 86);
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.isVerifiedSection{
+    background: url('https://images.unsplash.com/photo-1636955816868-fcb881e57954?auto=format&fit=crop&w=1920');
+    width: 100%;
+    height: 491px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+
+
+}
+
+.verify_btn{
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 24px;
+    background-color: rgb(97, 194, 86);
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    border: 1px solid white;
+    
+}
+.verify_btn:hover{
+    background-color: rgb(59, 173, 120);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+
+}
+.main_footer{
+    background-color: rgb(235,234,223);
+}
+
+.footer{
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    justify-content:space-between;
+    align-items: top;
+    padding:50px 10px;
+    max-width: 1224px;
+    margin: auto;
+}
+.footer>.left{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    
+}
+.footer>.right{
+    text-align: center;
+    display: flex;
+    
+    
+}
+
+.left ul>li, .right ul>li{
+    padding-top: 20px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+.cp{
+    border: 2px solid red;
+    text-align: center;
+    font-size: 18px;
+}
