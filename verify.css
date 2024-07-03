@@ -1,0 +1,12 @@
+.hide_user{
+    visibility: hidden;
+}
+
+.remove_height{
+    height: 200px;
+}
+
+
+.danger_box{
+    visibility: hidden;
+}
