@@ -10,3 +10,9 @@
 .danger_box{
     visibility: hidden;
 }
+
+@media only screen and (max-width: 600px){
+    .foooter{
+        margin-top: 80px;
+    }
+}
