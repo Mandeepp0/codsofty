@@ -579,26 +579,27 @@ var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub
         const height = document.querySelector('.maan');
 
 
+        setTimeout(() => {
 
+            if(cid_number == '0018b2c'){
+                user.classList.remove('hide_user')
+                height.classList.remove('remove_height')
+                not_verified.classList.add('danger_box')    
+            }
+    
+            if(cid_number!='0018b2c' && cid_number){
+                not_verified = document.querySelector('.not_verified');
+                not_verified.classList.remove('danger_box')
+                cid_danger.innerHTML=cid_number
+    
+    
+                user.classList.add('hide_user')
+                height.classList.add('remove_height')
+            }
 
-        console.log(cid_number)
-        if(cid_number == '0018b2c'){
-            user.classList.remove('hide_user')
-            height.classList.remove('remove_height')
-            not_verified.classList.add('danger_box')
-        }
-        if(!cid_number){
-            console.log("please fill the cid number")
-        }
-        if(cid_number!='0018b2c' && cid_number){
-            not_verified = document.querySelector('.not_verified');
-            not_verified.classList.remove('danger_box')
-            cid_danger.innerHTML=cid_number
+            
 
-
-            user.classList.add('hide_user')
-            height.classList.add('remove_height')
-        }
+        }, 300);    
 
 
 
